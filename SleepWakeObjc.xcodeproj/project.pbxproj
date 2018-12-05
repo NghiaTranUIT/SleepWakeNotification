@@ -13,6 +13,7 @@
 		BAC6855F21B7C60700B6C9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC6855D21B7C60700B6C9D7 /* Main.storyboard */; };
 		BAC6856221B7C60700B6C9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6856121B7C60700B6C9D7 /* main.m */; };
 		BAC6856D21B7C60800B6C9D7 /* SleepWakeObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6856C21B7C60800B6C9D7 /* SleepWakeObjcTests.m */; };
+		BAC6857921B7C66C00B6C9D7 /* Utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAC6857821B7C66C00B6C9D7 /* Utils.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		BAC6856821B7C60800B6C9D7 /* SleepWakeObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepWakeObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC6856C21B7C60800B6C9D7 /* SleepWakeObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepWakeObjcTests.m; sourceTree = "<group>"; };
 		BAC6856E21B7C60800B6C9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC6857721B7C66C00B6C9D7 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		BAC6857821B7C66C00B6C9D7 /* Utils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Utils.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BAC6856021B7C60700B6C9D7 /* Info.plist */,
 				BAC6856121B7C60700B6C9D7 /* main.m */,
 				BAC6856321B7C60700B6C9D7 /* SleepWakeObjc.entitlements */,
+				BAC6857721B7C66C00B6C9D7 /* Utils.h */,
+				BAC6857821B7C66C00B6C9D7 /* Utils.mm */,
 			);
 			path = SleepWakeObjc;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				BAC6855A21B7C60700B6C9D7 /* ViewController.m in Sources */,
 				BAC6856221B7C60700B6C9D7 /* main.m in Sources */,
 				BAC6855721B7C60700B6C9D7 /* AppDelegate.m in Sources */,
+				BAC6857921B7C66C00B6C9D7 /* Utils.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
